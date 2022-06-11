@@ -20,12 +20,6 @@
 
 ### 🏠 [Gist Page](https://gist.github.com/Brainybrian316/21b3827db22234ea94fb4fef27cbe105)
 
-## Meet the Developers
-&nbsp;
-
-👤 **Brainybrian316** 🚀
-
-***
 
 ## 🤝 Contributing
 
