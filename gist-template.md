@@ -81,6 +81,14 @@ Examples of Character Classes are as follows:
 
 * `\s` Whitespace - Matches a single whitespace character.
 
+* `_` Character - matches a underscore character.
+
+* `\` Escaped character - Matches a "." character
+
+* `-` Character - matches a hyphen character.
+
+* `@` Character - matches a at symbol character.
+
 ***
 ### Flags
 Expression flags change how the expression is interpreted. Flags are used to modify the behavior of the expression.
