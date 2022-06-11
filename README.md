@@ -62,14 +62,6 @@ If you have a suggestion that would make this better, please fork the repo and c
  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
-***
-
-## Contributors
-<a href="https://github.com/Brainybrian316/Sweet-Nostalgia/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Brainybrian316/Sweet-Nostalgia" />
-</a>
-
-***
 
 ## 📝 License
 
