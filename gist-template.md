@@ -5,7 +5,15 @@ In this tutorial, I will be taking a brief look into Regex and how they work. My
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex (short for regular expression) is a string of text that allows you to create search patterns that match, manage, and locate text. 
+
+An example code snippet of regex shows as following:
+```
+/[\w._%+-]+@[\w.-]+\.[a-zA-z]{2,4}/
+```
+* This is regular expression used to match an e-mail address
+
+```Fun Fact``` Regular expressions can also be used from the command line and within text-editors to find text within a file. 
 
 ## Table of Contents
 
@@ -28,9 +36,9 @@ Anchors are unique in that they match a position within a string, not a characte
 
 Examples of Anchors are as follows: 
 
-* `^` - Matches the beginning of the string. 
+* `^` Beginning - Matches the beginning of the string. 
 
-* `$` - Matches the end of the string. 
+* `$` End - Matches the end of the string. 
  
 ***
 ### Quantifiers
@@ -65,13 +73,13 @@ Character classes match a character from a specific set. There are a number of p
 
 Examples of Character Classes are as follows:
 
-* `.` - Matches any character except linebreaks. 
+* `.` Dot - Matches any character except linebreaks. 
 
-* `\d` - Matches a  single digit.
+* `\d` Digit - Matches a  single digit.
 
-* `\w` - Matches a single word character.
+* `\w` Word - Matches a single word character.
 
-* `\s` - Matches a single whitespace character.
+* `\s` Whitespace - Matches a single whitespace character.
 
 ***
 ### Flags
@@ -79,11 +87,11 @@ Expression flags change how the expression is interpreted. Flags are used to mod
 
 Examples of Flags are as follows:
 
-* `i` - Case Insensitive - Matches the expression ignoring case.
+* `i`  Case Insensitive - Matches the expression ignoring case.
 
-* `m` - Multi-line - Matches the expression across multiple lines.
+* `m`  Multi-line - Matches the expression across multiple lines.
 
-* `s` - Dot All - Matches the expression across newlines.
+* `s`  Dot All - Matches the expression across newlines.
 
 ***
 ### Grouping and Capturing
@@ -92,9 +100,9 @@ Groups allow you to combine a sequence of tokens to operate on them together.
 
 Examples of Groups are as follows:
 
-* `(abc)` - Groups multiple tokens together and creates a capture group for extracting.
+* `(abc)` Capturing Group - Groups multiple tokens together and creates a capture group for extracting.
 
- * `(?:)` - Groups multiple characters together without creating a capture group.
+ * `(?:)` Capturing Groups - Groups multiple characters together without creating a capture group.
 
 ***
 ### Bracket Expressions
@@ -102,11 +110,11 @@ Bracket Expressions are characters enclosed by a bracket `[]` matching any singl
 
 Examples of Bracket Expressions are as follows:
 
-* `[abc]` - Matches a character from the set.
+* `[abc]`Character Set - Matches a character from the set.
 
-* `[^abc]` - Matches a character that is not in the set.
+* `[^abc]` Negated Set - Matches a character that is not in the set.
  
-* `[a-z]` - Matches a character from within the specified range of characters in the set.
+* `[a-z]` Range - Matches a character from within the specified range of characters in the set.
 
 ***
 ### Greedy and Lazy Match
@@ -134,9 +142,9 @@ Examples of Greedy and Lazy Match are as follows:
 
 Boundaries are used to match the start or end of a string. They are the places betwen characters kind of like a wall.
 
-* `\b` - Matches a word boundary position between a word character and non-word character or position (start / end of string). 
+* `\b` Word Boundary- Matches a word boundary position between a word character and non-word character or position (start / end of string). 
 
-* `\B` - Matches any position that is not a word boundary. This matches a position, not a character.
+* `\B` Not Word Boundary - Matches any position that is not a word boundary. This matches a position, not a character.
 
 ***
 ### Back-references
@@ -145,9 +153,9 @@ Back-references are used to match a previously matched group.
 
 Examples of Back-references are as follows:
 
-* `\1` - Captures the specified group in this case its the first group.
+* `\1` Numeric Reference - Captures the specified group in this case its the first group.
 
-* `(?<name>abc)` - Creates a capturing group that can be referenced via the specified name.
+* `(?<name>abc)` Name Capturing Group - Creates a capturing group that can be referenced via the specified name.
 
 ***
 ### Look-ahead and Look-behind
@@ -163,7 +171,7 @@ Examples of Look-ahead and Look-behind are as follows:
 
 * `(?<=abc)` Positive Look-behind - Matches the expression after the `?<=` symbol.
 
-* `(?<!abc)` <mark>Negative Look-behind</mark> - Matches the expression after the `?<!` symbol.
+* `(?<!abc)` Negative Look-behind- Matches the expression after the `?<!` symbol.
 
 ***
 ## Author
