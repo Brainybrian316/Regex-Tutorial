@@ -9,7 +9,7 @@ Regex (short for regular expression) is a string of text that allows you to crea
 
 An example code snippet of regex shows as following:
 ```
-/[\w._%+-]+@[\w.-]+\.[a-zA-z]{2,4}/
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
 * This is regular expression used to match an e-mail address
 
